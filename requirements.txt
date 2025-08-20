@@ -1,7 +1,8 @@
 streamlit
-pandas
 numpy
-tensorflow
-scikit-learn
+pandas
 plotly
 joblib
+scikit-learn
+h5py
+tensorflow==2.15.0.post1
