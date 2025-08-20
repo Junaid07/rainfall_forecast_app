@@ -1,8 +1,14 @@
-streamlit
-numpy
-pandas
-plotly
-joblib
-scikit-learn
-h5py
-tensorflow==2.15.0.post1
+# Core
+streamlit==1.36.0
+numpy<2.0
+pandas==2.2.2
+plotly==5.22.0
+joblib==1.4.2
+scikit-learn==1.4.2
+h5py==3.10.0
+
+# TensorFlow (CPU build)
+tensorflow-cpu==2.15.0
+
+# (Optional) if you directly import keras, add:
+# keras==2.15.0
